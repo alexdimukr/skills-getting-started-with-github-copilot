@@ -177,6 +177,21 @@ footer {
   color: #333;
 }
 
+/* delete/unregister button next to each participant */
+.delete-participant {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.delete-participant:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
 /* small circular avatar with initials */
 .avatar {
   width: 36px;
